@@ -2,23 +2,33 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+$grid-gutter-width: 12px;
+
+@import "twitter/bootstrap";
+
 html { height: 100%; }
 body { height: 100%; }
+
+.card {
+  background: #FFF;
+  padding: .4em;
+}
+
+.card-container {
+  margin-bottom: .4em;
+}
 
 .discussion-container {
   background: #CCC;
   min-height: 100%;
-}
-
-.card {
-  background: #AAF;
-}
-
-.loomio-nav {
-  margin-bottom: 0px;
+  padding-top: .4em;
 }
 
 .discussion-title {
-  margin: 0px;
+  margin: 0;
+}
+
+.loomio-nav {
+  margin-bottom: 0;
 }
 
