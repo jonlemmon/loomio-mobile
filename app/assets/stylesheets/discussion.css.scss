@@ -1,3 +1,24 @@
 // Place all the styles related to the discussion controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+html { height: 100%; }
+body { height: 100%; }
+
+.discussion-container {
+  background: #CCC;
+  min-height: 100%;
+}
+
+.card {
+  background: #AAF;
+}
+
+.loomio-nav {
+  margin-bottom: 0px;
+}
+
+.discussion-title {
+  margin: 0px;
+}
+
