@@ -1,4 +1,6 @@
 = render 'navbar'
+- avatar_size = 34
+- avatar_path = "holder.js/#{avatar_size}x#{avatar_size}"
 .card-page
 
   .card-row
@@ -11,11 +13,11 @@
       .card__content
         .avatar-list
           .avatar-list__item
-            %img{src: "holder.js/40x40"}
+            %img{src: avatar_path}
           .avatar-list__item
-            %img{src: "holder.js/40x40"}
+            %img{src: avatar_path}
           .avatar-list__item
-            %img{src: "holder.js/40x40"}
+            %img{src: avatar_path}
           .avatar-list__btn.btn.btn-primary Invite
 
   .card-row
@@ -23,7 +25,7 @@
       .card__content
         .media-header
           .media-header__img
-            %img.media-object{alt: "...", src: "holder.js/40x40"}
+            %img.media-object{alt: "...", src: avatar_path}
           .media-header__text
             %h4.media-header__title Discussion notes
             .media-header__details Edited 30 minutes ago
@@ -39,7 +41,7 @@
       .card__content
         .media-header
           .media-header__img
-            %img.media-object{alt: "...", src: "holder.js/40x40"}
+            %img.media-object{alt: "...", src: avatar_path}
           .media-header__text
             %h4.media-header__title Vivien Maidaborn
             .media-header__details 2 hours ago

@@ -4,11 +4,11 @@
 
   .avatar-list__item {
     float: left;
-    margin-right: .4em;
+    margin-right: $gutter-width;
   }
 
   .avatar-list__btn {
-    line-height: 38px;
+    line-height: 32px;
     padding: 0 19px;
     float: right;
     height: 100%;

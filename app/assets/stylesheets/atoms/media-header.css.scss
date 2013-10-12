@@ -5,11 +5,11 @@
 
 .media-header__img {
   float: left;
-  margin-right: 6px;
+  margin-right: $gutter-width;
 }
 
 .media-header__text {
-  margin-bottom: 6px;
+  margin-bottom: $gutter-width;
 }
 
 .media-header__title {
