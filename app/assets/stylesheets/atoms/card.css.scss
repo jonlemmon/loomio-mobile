@@ -4,10 +4,6 @@ $grid-gutter-width: 12px;
   @include make-xs-column(12);
 }
 
-.card--half-size {
-  @include make-xs-column(6);
-}
-
 .card__content {
   background: #FFF;
   padding: .4em;

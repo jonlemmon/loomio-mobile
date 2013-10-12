@@ -1,0 +1,13 @@
+.toolbar {
+  @include make-row();
+}
+
+.toolbar__button--first {
+  border-right: 1px solid #888;
+}
+
+.toolbar__button {
+  @include make-xs-column(6);
+  text-align: center;
+  line-height: 2em;
+}

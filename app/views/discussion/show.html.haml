@@ -35,10 +35,21 @@
           3. Must have internet access. :)
 
   .card-row
-    .card.card--half-size
+    .card
       .card__content
-        %img{src: "holder.js/150x150"}
-    .card.card--half-size
-      .card__content
-        %img{src: "holder.js/150x150"}
-
+        .media-header
+          .media-header__img
+            %img.media-object{alt: "...", src: "holder.js/40x40"}
+          .media-header__text
+            %h4.media-header__title Vivien Maidaborn
+            .media-header__details 2 hours ago
+        .media-content
+          So we need to decide a place to stay for our retreat. How about Riverslea? It seems like the right size, it's a great vibe, and the food was good too.
+      .toolbar-container
+        .toolbar
+          .toolbar__button.toolbar__button--first
+            %span.glyphicon.glyphicon-thumbs-up
+            Like
+          .toolbar__button
+            %span.glyphicon.glyphicon-comment
+            Reply

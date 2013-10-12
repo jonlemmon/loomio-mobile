@@ -1,0 +1,5 @@
+.toolbar-container {
+  @extend .container;
+  background-color: #EEE;
+  @include box-shadow(0px 0px 2px #888888);
+}
