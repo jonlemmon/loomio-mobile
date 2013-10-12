@@ -1,0 +1,17 @@
+.avatar-list {
+  @include clearfix();
+  height: 100%;
+
+  .avatar-list-item {
+    float: left;
+    margin-right: .4em;
+  }
+
+  .avatar-list-btn {
+    line-height: 38px;
+    padding: 0 19px;
+    float: right;
+    height: 100%;
+  }
+
+}
