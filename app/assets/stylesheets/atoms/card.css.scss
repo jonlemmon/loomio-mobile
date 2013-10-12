@@ -1,21 +1,21 @@
 $grid-gutter-width: 12px;
 
 .card {
+  margin-bottom: .4em;
+  @include make-row();
+}
+
+.card__title {
+  margin: 0;
+}
+
+.card__content {
   background: #FFF;
   padding: .4em;
   border-radius: 2px;
   @include box-shadow(0px 0px 2px #888888);
 }
 
-.card-row {
-  margin-bottom: .4em;
-  @include make-row();
-}
-
-.card-wrapper {
+.card__wrapper {
   @include make-xs-column(12);
-}
-
-.card-title {
-  margin: 0;
 }
