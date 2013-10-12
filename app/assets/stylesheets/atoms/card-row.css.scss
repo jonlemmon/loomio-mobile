@@ -1,0 +1,6 @@
+$grid-gutter-width: 12px;
+
+.card-row {
+  margin-bottom: .4em;
+  @include make-row();
+}

@@ -1,11 +1,13 @@
 = render 'navbar'
 .card-page
-  .card
-    .card__wrapper
+
+  .card-row
+    .card
       .card__content
         %h1.card__title Where should we go on our Loomio retreat in October?
-  .card
-    .card__wrapper
+
+  .card-row
+    .card
       .card__content
         .avatar-list
           .avatar-list__item
@@ -15,3 +17,12 @@
           .avatar-list__item
             %img{src: "holder.js/40x40"}
           .avatar-list__btn.btn.btn-primary Invite
+
+  .card-row
+    .card.card--half-size
+      .card__content
+        %img{src: "holder.js/150x150"}
+    .card.card--half-size
+      .card__content
+        %img{src: "holder.js/150x150"}
+
