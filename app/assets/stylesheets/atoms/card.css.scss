@@ -16,3 +16,8 @@ $grid-gutter-width: 12px;
   margin: 0;
 }
 
+// Non-block elements
+.card-row {
+  margin-bottom: .4em;
+  @include make-row();
+}
